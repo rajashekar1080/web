@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IOT website</title>
+    <link rel="stylesheet" href="iot.css">
+    <!-- <link rel="stylesheet" href="index.css"> -->
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Open+Sans:wght@400;600&family=Roboto+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <nav>
+        <div class="nav-container">
+            <a href="iot.html" class="logo"><img src="BIZ BITES IOT.png" alt=""></a>
+            <ul class="nav-links"> 
+                <li><a href="mainhome.html">MAINHOME</a></li>
+                <li><a href="iot.html">HOME</a></li>
+                <li><a href="home.html">IOT DEVICES</a></li>
+                <li><a href="about.html">ABOUT US</a></li>
+                <li><a href="contact.html">CONNECT</a></li>
+       
+            </ul> 
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i> 
+        </div>
+    </nav>
+
+    
+    <section class="search-bar">
+        <form class="container search-container" onsubmit="return false;">
+            <div class="search">
+                <input id="search-input" placeholder="Search..." type="text" oninput="showSuggestions(this.value)">
+                <button type="submit">Go</button>
+            </div>
+            <div id="suggestions" class="suggestions"></div>
+        </form>
+       
+    </section>
+
+
+    <section class="post">
+        <div class="post-container container">
+
+            <article class="post1">
+                <div class="thumbnail">
+                    <img src="about motoron device.jpg" alt="">
+                </div>
+                <div class="post-info">
+                    <p href="category.html" class="category">Motoron 4 controller</p>
+                    <h3 class="post-title">IOT MOTORON 4 DEVICE </h3>
+                    <p class="post-body"> Develop a level measurement system that offers accurate and reliable monitoring of liquid levels in various environments and controlling the desired motor with respect to level and time, functioning seamlessly with or without internet connectivity, providing flexibility and convenience for different applications. Can also view the status in webpage once connected to internet.
+                        
+                        <h3 class="post-title"> Selection of Water Level Sensors</h3>   
+Choosing the right water level sensors is critical to obtaining accurate and reliable measurements. Several sensor technologies are commonly used, including:
+<br>a. Pressure Transducers: These sensors measure water pressure and provide a direct indication of water level.<br>
+b. Ultrasonic Sensors: Utilizing sound waves, ultrasonic sensors measure the distance between the sensor and the water surface to determine the water level.
+<br>c. Carbon Nodes: These sensors are placed inside the water to measure the water level.
+<br>d. Radar Sensors: Radar-based sensors emit electromagnetic waves and measure the time taken for the waves to reflect back, providing precise water level measurements.
+<br>e. Float Switch: Even though there are different types of float switches, they all work on the same principle, they open or close depending on the liquid level. When the magnet is close to the reed switch, an electrical current can flow through, and close the circuit, signaling the pump to stop pumping liquid into the tank
+For our application, we are using Carbon Nodes and Float Switch.
+
+<h3 class="post-title">Installation and Calibration </h3>
+                        Proper installation and calibration of water level sensors are essential for accurate readings. Follow these guidelines:
+                        <br>a. Sensor Placement: Install the sensors at representative locations, considering factors such as water flow patterns, obstructions, and accessibility.
+                        <br>b. Mounting: Ensure the sensors are securely mounted and protected from damage, vandalism, or environmental factors that may affect readings.
+                        <br>c. Calibration: Calibrate the sensors according to instructions to account for any variations or offsets. Regular recalibration may be necessary to maintain accuracy.
+
+                <h3 class="post-title">Data Acquisition and Transmission </h3>
+To capture water level readings and transmit the data to a database, consider the following steps:
+<br>a. Data Logger: Connect the water level sensors to a data logger capable of recording and storing the sensor data. The data logger should have sufficient memory and sampling frequency for the desired data resolution.
+<br>b. Communication Interface: Utilize appropriate communication protocols (e.g., Ethernet, Wi-Fi, cellular) to transfer data from the data logger to a central server or cloud-based database.
+<br>c. Real-time Monitoring: Implement a system that enables real-time monitoring of water level readings, providing immediate alerts for abnormal or critical conditions.
+
+<h3 class="post-title">Data Analysis and Visualization </h3>
+Once the water level readings are stored in the database, you can leverage various analysis and visualization techniques to gain insights and make informed decisions. Consider using data analysis tools, such as Python with libraries like Pandas, NumPy, and Matplotlib, to perform statistical analysis, trend detection, and anomaly detection. Visualize the data using graphs, charts, or GIS mapping tools for better comprehension and decision-making.
+
+<h3 class="post-title">Maintenance and Monitoring </h3>
+Regular maintenance and monitoring are essential to ensure the accuracy and reliability of water level measurements. Perform routine checks on the sensors, data loggers, communication systems, and database connections. Implementing backup mechanisms to prevent data loss and maintain system availability is necessary and is available for our device.
+
+<h3 class="post-title">Device Components:  </h3>
+<br> Wi-Fi Circuit Box: Featuring an integrated LCD screen. 
+<br> Waterproof Ultrasonic Sensor: Equipped with a 2-meter cable wire for versatile 
+positioning. 
+<br> 12V 1Amp DC Power Adapter: Ensuring a reliable power supply.  
+
+<h3 class="post-title"> Key Features:</h3>
+<br> Extensive Range: Capable of measuring water levels up to 3500mm. 
+<br> Seamless Connectivity: Provides Wi-Fi connectivity for effortless data access. 
+<br> User-Friendly Interface: Features an LCD screen for convenient on-site data viewing. 
+<br> Remote Monitoring: Access real-time data remotely via a dedicated webpage. 
+<br> Motor Control: Allows manual or remote motor control when connected to Wi-Fi. 
+With Wateron, take full control of your water management needs with precision and remote 
+convenience. 
+
+
+                    </p>
+                    
+                </div>
+            </article>
+
+            <article class="post1">
+                <div class="thumbnail">
+                    <img src="motoron.jpeg" alt="">
+                </div>
+                <div class="post-info">
+                    <p href="category.html" class="category">Motoron 2 controller</p>
+                    <h3 class="post-title">IOT MOTORON DEVICE </h3>
+                    <p class="post-body">Develop a level measurement system that offers accurate and reliable monitoring of liquid levels in various environments and controlling the desired motor with respect to level and time, functioning seamlessly with or without internet connectivity, providing flexibility and convenience for different applications. Can also view the status in webpage once connected to internet.
+                        
+                        <h3 class="post-title"> Selection of Water Level Sensors</h3>   
+                        Choosing the right water level sensors is critical to obtaining accurate and reliable measurements. Several sensor technologies are commonly used, including:
+                        <br> a. Pressure Transducers: These sensors measure water pressure and provide a direct indication of water level.
+                        <br>b. Ultrasonic Sensors: Utilizing sound waves, ultrasonic sensors measure the distance between the sensor and the water surface to determine the water level.
+                        <br>c. Carbon Nodes: These sensors are placed inside the water to measure the water level.
+                        <br>d. Radar Sensors: Radar-based sensors emit electromagnetic waves and measure the time taken for the waves to reflect back, providing precise water level measurements.
+                        <br>e. Float Switch: Even though there are different types of float switches, they all work on the same principle, they open or close depending on the liquid level. When the magnet is close to the reed switch, an electrical current can flow through, and close the circuit, signaling the pump to stop pumping liquid into the tank
+                        <br>For our application, we are using Carbon Nodes and Float Switch.</p>
+                    
+                        <h3 class="post-title">Installation and Calibration </h3>
+                        Proper installation and calibration of water level sensors are essential for accurate readings. Follow these guidelines:
+                        <br>a. Sensor Placement: Install the sensors at representative locations, considering factors such as water flow patterns, obstructions, and accessibility.
+                        <br>b. Mounting: Ensure the sensors are securely mounted and protected from damage, vandalism, or environmental factors that may affect readings.
+                        <br>c. Calibration: Calibrate the sensors according to instructions to account for any variations or offsets. Regular recalibration may be necessary to maintain accuracy.
+
+                <h3 class="post-title">Data Acquisition and Transmission </h3>
+To capture water level readings and transmit the data to a database, consider the following steps:
+<br>a. Data Logger: Connect the water level sensors to a data logger capable of recording and storing the sensor data. The data logger should have sufficient memory and sampling frequency for the desired data resolution.
+<br>b. Communication Interface: Utilize appropriate communication protocols (e.g., Ethernet, Wi-Fi, cellular) to transfer data from the data logger to a central server or cloud-based database.
+<br>c. Real-time Monitoring: Implement a system that enables real-time monitoring of water level readings, providing immediate alerts for abnormal or critical conditions.
+
+<h3 class="post-title">Data Analysis and Visualization </h3>
+Once the water level readings are stored in the database, you can leverage various analysis and visualization techniques to gain insights and make informed decisions. Consider using data analysis tools, such as Python with libraries like Pandas, NumPy, and Matplotlib, to perform statistical analysis, trend detection, and anomaly detection. Visualize the data using graphs, charts, or GIS mapping tools for better comprehension and decision-making.
+
+<h3 class="post-title">Maintenance and Monitoring </h3>
+Regular maintenance and monitoring are essential to ensure the accuracy and reliability of water level measurements. Perform routine checks on the sensors, data loggers, communication systems, and database connections. Implementing backup mechanisms to prevent data loss and maintain system availability is necessary and is available for our device.
+
+<h3 class="post-title">Device Components:  </h3>
+<br> Wi-Fi Circuit Box: Featuring an integrated LCD screen. 
+<br> Waterproof Ultrasonic Sensor: Equipped with a 2-meter cable wire for versatile 
+positioning. 
+<br> 12V 1Amp DC Power Adapter: Ensuring a reliable power supply. 
+
+<h3 class="post-title"> Key Features:</h3>
+<br> Extensive Range: Capable of measuring water levels up to 3500mm. 
+<br> Seamless Connectivity: Provides Wi-Fi connectivity for effortless data access. 
+<br> User-Friendly Interface: Features an LCD screen for convenient on-site data viewing. 
+<br> Remote Monitoring: Access real-time data remotely via a dedicated webpage. 
+<br> Motor Control: Allows manual or remote motor control when connected to Wi-Fi. 
+With Wateron, take full control of your water management needs with precision and remote 
+convenience. 
+
+            </article>
+
+
+            <article class="post1">
+                <div class="thumbnail">
+                    <img src="biotron.jpeg" alt="">
+                </div>
+                <div class="post-info">
+                    <p href="category.html" class="category">BIOTRON DOUBLE DEVICE</p>
+                    <h3 class="post-title">BIOTRON DOUBLE DEVICE </h3>
+                    <p class="post-body">Develop a level measurement system that offers accurate and reliable monitoring of solid/liquid levels in various environments, functioning seamlessly with or without internet connectivity, providing flexibility and convenience for different applications. Can also view the status in webpage once connected to internet.</p>
+                    Water level measurement plays a crucial role in various industries, environmental monitoring, and infrastructure management. Accurate and real-time water level readings are essential for making informed decisions and taking appropriate actions. Here is a comprehensive approach to measure water levels and integrate the readings into a database for efficient data management and analysis. This data can also be viewed in webpage.
+
+                    <h3 class="post-title"> Selection of Water Level Sensors</h3> 
+                    Choosing the right water level sensors is critical to obtaining accurate and reliable measurements. Several sensor technologies are commonly used, including:
+                    <br>a. Pressure Transducers: These sensors measure water pressure and provide a direct indication of water level.
+                    <br>b. Ultrasonic Sensors: Utilizing sound waves, ultrasonic sensors measure the distance between the sensor and the water surface to determine the water level.
+                    <br>c. Carbon Nodes: These sensors are placed inside the water to measure the water level.
+                    <br>d. Radar Sensors: Radar-based sensors emit electromagnetic waves and measure the time taken for the waves to reflect back, providing precise water level measurements.
+For our application, we are using Waterproof Ultrasonic Sensor for our application.
+
+<h3 class="post-title"> Installation and Calibration</h3> 
+Proper installation and calibration of water level sensors are essential for accurate readings. Follow these guidelines:
+
+<br>a. Sensor Placement: Install the sensors at representative locations, considering factors such as water flow patterns, obstructions, and accessibility.
+<br>b. Mounting: Ensure the sensors are securely mounted and protected from damage, vandalism, or environmental factors that may affect readings.
+<br>c. Calibration: Calibrate the sensors according to instructions to account for any variations or offsets. Regular recalibration may be necessary to maintain accuracy.
+
+<h3 class="post-title"> Data Acquisition and Transmission</h3> 
+To capture water level readings and transmit the data to a database, consider the following steps:
+<br>a. Data Logger: Connect the water level sensors to a data logger capable of recording and storing the sensor data. The data logger should have sufficient memory and sampling frequency for the desired data resolution.
+<br>b. Communication Interface: Utilize appropriate communication protocols (e.g., Ethernet, Wi-Fi, cellular) to transfer data from the data logger to a central server or cloud-based database.
+<br>c. Real-time Monitoring: Implement a system that enables real-time monitoring of water level readings, providing immediate alerts for abnormal or critical conditions.
+
+<h3 class="post-title"> Data Analysis and Visualization</h3> 
+Once the water level readings are stored in the database, you can leverage various analysis and visualization techniques to gain insights and make informed decisions. Consider using data analysis tools, such as Python with libraries like Pandas, NumPy, and Matplotlib, to perform statistical analysis, trend detection, and anomaly detection. Visualize the data using graphs, charts, or GIS mapping tools for better comprehension and decision-making.
+
+<h3 class="post-title"> Maintenance and Monitoring</h3> 
+
+Regular maintenance and monitoring are essential to ensure the accuracy and reliability of water level measurements. Perform routine checks on the sensors, data loggers, communication systems, and database connections. Implementing backup mechanisms to prevent data loss and maintain system availability is necessary and is available for our device.
+ 
+<h3 class="post-title">Device Components: </h3> 
+<br> Wi-Fi Circuit Box: Equipped with an integrated LCD screen. 
+<br> Waterproof Ultrasonic Sensor: Featuring a 2-meter cable wire for versatile 
+placement. 
+<br> 12V 1Amp DC Power Adapter: Ensuring a stable power supply. 
+
+<h3 class="post-title"> Key Features</h3> 
+
+<br> Extensive Range: Capable of measuring up to 3500mm. 
+<br> Seamless Connectivity: Offers Wi-Fi connectivity for easy data access. 
+<br> LCD Screen: Provides a user-friendly interface for real-time data visualization. 
+<br> Remote Monitoring: Access data remotely through a dedicated webpage. 
+Experience the Biotron, your ultimate solution for precise level measurements with 
+convenience at its core. 
+
+</div>
+            </article>
+
+            <article class="post1">
+                <div class="thumbnail">
+                    <img src="wateron.jpeg" alt="">
+                </div>
+                <div class="post-info">
+                    <p href="category.html" class="category">FLOW SENSOR SINGLE</p>
+                    <h3 class="post-title">FLOW SENSOR </h3>
+                    <p class="post-body">Develop a water flow measurement system that offers accurate and reliable monitoring of liquid flow in various environments (only liquid with no solid particles), functioning seamlessly with or without internet connectivity, providing flexibility and convenience for different applications. Can also view the total volume in webpage once connected to internet.</p>
+                    
+                    <h3 class="post-title"></h3> 
+                    Water flow measurement through pipes plays a crucial role in various industries, environmental monitoring, and infrastructure management. Accurate and real-time water flow readings are essential for making informed decisions and taking appropriate actions. Here is a comprehensive approach to measure water flow rate and volume and integrate the readings into a database for efficient data management and analysis. This data can also be viewed in webpage.
+                    <h3 class="post-title">Selection of Water Flow Sensors</h3> 
+                    Choosing the right water flow sensors is critical to obtaining accurate and reliable measurements. The below two sensor technologies are same but build quality is different.
+                    <h3 class="post-title"></h3>
+                    <br>a. Brass Flow Sensor: These sensors are mainly used for hot liquid flow measurements. Available in various sizes like ½ inch, ¾ inch and 1 inch. These sensors are bit expensive then ABS Flow Sensors.
+                    <br>b. ABS Flow Sensors: These sensors are mainly used for normal liquid flow measurements. Available in various sizes like ½ inch, ¾ inch, 1 inch, 1& ½ inch and 2 inches.
+                    For our application, we are using ABS Flow Sensors.
+                   
+                    <h3 class="post-title">Data Acquisition and Transmission</h3>
+                    To capture water flow readings and transmit the data to a database, consider the following steps:
+                    <br>a. Data Logger: Connect the water flow sensor to a device for data logger and capable of recording and storing the sensor data. The data logger should have sufficient memory and sampling frequency for the desired data resolution.
+                    <br>b. Communication Interface: Utilize appropriate communication protocols (e.g., Ethernet, Wi-Fi, cellular) to transfer data from the data logger to a central server or cloud-based database.
+                    <br>c. Real-time Monitoring: Implement a system that enables real-time monitoring of water flow readings, providing immediate alerts for abnormal or critical conditions.
+
+<h3 class="post-title">Data Analysis and Visualization</h3>
+Once the water flow readings are stored in the database, you can leverage various analysis and visualization techniques to gain insights and make informed decisions. Consider using data analysis tools, such as Python with libraries like Pandas, NumPy, and Matplotlib, to perform statistical analysis, trend detection, and anomaly detection. Visualize the data using graphs, charts, or GIS mapping tools for better comprehension and decision-making.
+
+<h3 class="post-title">Maintenance and Monitoring</h3>
+Regular maintenance and monitoring are essential to ensure the accuracy and reliability of water flow measurements. Perform routine checks on the sensors, data loggers, communication systems, and database connections. Implementing backup mechanisms to prevent data loss and maintain system availability is necessary and is available for our device.
+
+<h3 class="post-title"> Key Features</h3> 
+
+<br> Seamless Connectivity: Offers Wi-Fi connectivity for easy data access. 
+<br> Comprehensive Data: Provides real-time measurements of both Flow Rate and Total 
+Flow. 
+<br> User-Friendly Display: Features an LCD screen for convenient on-site data viewing. 
+<br> Remote Data Access: Access data remotely through a dedicated webpage. 
+<br> Multi-Sensor Support: Capable of connecting up to 4 flow sensors to a single device. 
+Experience the Flow Sensor Pro, your all-in-one solution for precise flow monitoring, whether 
+it's for industrial or personal use.
+
+                </div>
+            </article>
+
+            <article class="post1">
+                <div class="thumbnail">
+                    <img src="wateron.jpeg" alt="">
+                </div>
+                <div class="post-info">
+                    <p href="category.html" class="category">FLOW SENSOR DOUBLE</p>
+                    <h3 class="post-title">FLOW SENSOR</h3>
+                    <p class="post-body"> Develop a water flow measurement system that offers accurate and reliable monitoring of liquid flow in various environments (only liquid with no solid particles), functioning seamlessly with or without internet connectivity, providing flexibility and convenience for different applications. Can also view the total volume in webpage once connected to internet.</p>
+                    
+                    <h3 class="post-title"></h3> 
+                    Water flow measurement through pipes plays a crucial role in various industries, environmental monitoring, and infrastructure management. Accurate and real-time water flow readings are essential for making informed decisions and taking appropriate actions. Here is a comprehensive approach to measure water flow rate and volume and integrate the readings into a database for efficient data management and analysis. This data can also be viewed in webpage.
+                    <h3 class="post-title">Selection of Water Flow Sensors</h3> 
+                    Choosing the right water flow sensors is critical to obtaining accurate and reliable measurements. The below two sensor technologies are same but build quality is different.
+                    <h3 class="post-title"></h3>
+                    <br>a. Brass Flow Sensor: These sensors are mainly used for hot liquid flow measurements. Available in various sizes like ½ inch, ¾ inch and 1 inch. These sensors are bit expensive then ABS Flow Sensors.
+                    <br>b. ABS Flow Sensors: These sensors are mainly used for normal liquid flow measurements. Available in various sizes like ½ inch, ¾ inch, 1 inch, 1& ½ inch and 2 inches.
+                    For our application, we are using ABS Flow Sensors.
+                   
+                    <h3 class="post-title">Data Acquisition and Transmission</h3>
+                    To capture water flow readings and transmit the data to a database, consider the following steps:
+                    <br>a. Data Logger: Connect the water flow sensor to a device for data logger and capable of recording and storing the sensor data. The data logger should have sufficient memory and sampling frequency for the desired data resolution.
+                    <br>b. Communication Interface: Utilize appropriate communication protocols (e.g., Ethernet, Wi-Fi, cellular) to transfer data from the data logger to a central server or cloud-based database.
+                    <br>c. Real-time Monitoring: Implement a system that enables real-time monitoring of water flow readings, providing immediate alerts for abnormal or critical conditions.
+
+<h3 class="post-title">Data Analysis and Visualization</h3>
+Once the water flow readings are stored in the database, you can leverage various analysis and visualization techniques to gain insights and make informed decisions. Consider using data analysis tools, such as Python with libraries like Pandas, NumPy, and Matplotlib, to perform statistical analysis, trend detection, and anomaly detection. Visualize the data using graphs, charts, or GIS mapping tools for better comprehension and decision-making.
+
+<h3 class="post-title">Maintenance and Monitoring</h3>
+Regular maintenance and monitoring are essential to ensure the accuracy and reliability of water flow measurements. Perform routine checks on the sensors, data loggers, communication systems, and database connections. Implementing backup mechanisms to prevent data loss and maintain system availability is necessary and is available for our device.
+
+<h3 class="post-title"> Key Features</h3> 
+
+<br> Seamless Connectivity: Offers Wi-Fi connectivity for easy data access. 
+<br> Comprehensive Data: Provides real-time measurements of both Flow Rate and Total 
+Flow. 
+<br> User-Friendly Display: Features an LCD screen for convenient on-site data viewing. 
+<br> Remote Data Access: Access data remotely through a dedicated webpage. 
+<br> Multi-Sensor Support: Capable of connecting up to 4 flow sensors to a single device. 
+Experience the Flow Sensor Pro, your all-in-one solution for precise flow monitoring, whether 
+it's for industrial or personal use.
+
+                </div>
+            </article>
+
+            <article class="post1">
+                <div class="thumbnail">
+                    <img src="homeautomation.jpeg" alt="">
+                </div>
+                <div class="post-info">
+                    <p href="category.html" class="category">HOME AUTOMATION</p>
+                    <h3 class="post-title">SMART HOME AUTOMATION</h3>
+                    
+                    <p class="post-body">Home automation has achieved a lot of popularity in recent years, as day-to-day life is getting simpler due to the rapid growth of technology. Almost everything has become digitalized and automatic. In this paper, a system for interconnecting sensors, actuators, and other data sources with the purpose of multiple home automations is proposed. The system is called qToggle and works by leveraging the power of a flexible and powerful Application Programming Interface (API), which represents the foundation of a simple and common communication scheme. The devices used by qToggle are usually sensors or actuators with an upstream network connection implementing the qToggle API. Most devices used by qToggle are based on ESP8266/ESP8285 chips and/or on Raspberry Pi boards. A smartphone application has been developed that allows users to control a series of home appliances and sensors. The qToggle system is user friendly, flexible, and can be further developed by using different devices and add-ons.
+
+                        .This is the era of advanced computing technology. Almost all of the works we are doing by the help of automation system or computer controlled. Now peoples are moving towards smart system. As the technology is upgrading day by day peoples want more security in their daily life. We know maintaining the security level for home is very crucial. So, here we have discussed about the SMART HOME development. 
+                        This SMART HOME is fully controlled by the members of the family. This home is made by special structure wiring with the use of TCP/IP connection where the users (family members) can access using a simple client side control. This is a double stored house where all the members will be given a unique ID with PASSWORD to access the system. Here the control panel is usually placed at the master bedroom. By using this system members can switch on the lights, open the doors, control the temperature of Air Conditioner, control television, set alarm clock and play music system. This SMART HOME enhanced the better living for mankind.
+                    </p>
+               
+                    <h3 class="post-title">ADVANTAGES</h3>
+
+                    <br>save money
+                    <br> Improve security and safety
+                    <br> Use less energy
+                    <br>Create convenience
+                    <br>Use appliances more effectively
+                    <br>Increase home comfort
+                    <br>Enhance accessibility
+                    <br>Improve efficiency in household chores
+
+
+                  
+            </article>
+
+        </div>
+    </section>
+
+    <section class="Category" id="Category">
+        <div class="category-container container">
+            <a class="category">MOTORON 2 controller</a>
+            <a class="category">MOTORON 6 controller</a>
+            <a class="category">BIOTRON 2 CONTROL SENSING</a>
+            <a class="category">FLOW SENSOR SINGLE</a>
+            <a class="category">FLOW SENSOR DOUBLE</a>
+            <a class="category">SMART HOME AUTOMATION</a>
+        </div>
+    </section>
+
+    <footer>
+        <div class="social">
+            <a href=""><i class="fa-brands fa-facebook"></i></a>
+            <a href=""><i class="fa-brands fa-instagram"></i></a>
+            <a href=""><i class="fa-brands fa-twitter"></i></a>
+            <a href=""><i class="fa-brands fa-linkedin-in"></i></a>
+        </div>
+        <div class="container foot-ontainer">
+            <article>
+                <h4>Categories</h4>
+                <ul>
+                    <li><a>Motoron 2 controller</a></li>
+                    <li><a>Motoron 4 controller</a></li>
+                    <li><a>BIOTRON 2 CONTROL SENSING</a></li>
+                    <li><a>FLOW SENSOR SINGLE</a></li>
+                    <li><a>FLOW SENSOR DOUBLE</a></li>
+                    <li><a>HOME AUTOMATION</a></li>
+                    <li><a></a></li>
+                    <li><a></a></li>
+                    <li><a></a></li>
+                    <li><a></a></li>
+                    <li><a></a></li>
+                    <li><a></a></li>
+                    </ul>
+                </ul>
+            </article>
+
+            <article>
+                <h4>Support</h4>
+                <ul>
+                    <li><a href="">Online Support</a></li>
+                    <li><a href="">Email</a></li>
+                    <li><a href="">Phone</a></li>
+                    <li><a href="">Social Media</a></li>
+                </ul>
+            </article>
+
+            <article>
+                <h4>Links</h4>
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="">IOT DEVICES</a></li>
+                    <li><a href="">ABOUT US</a></li>
+                    <li><a href="">Contact</a></li>
+                </ul>
+            </article>
+
+        </div>
+        <div class="copyryt"><pre>Conditions of Use     Privacy Notice
+Copyright &copy; 2024, Blog.</pre></div>
+    </footer>
+
+    <script src="index.js"></script>
+    <script src="blog.js"></script>
+</body>
+</html>

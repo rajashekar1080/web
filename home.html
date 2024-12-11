@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IOT website</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="blog.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Open+Sans:wght@400;600&family=Roboto+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <nav>
+        <div class="nav-container">
+            <a href="iot.html" class="logo"><img src="BIZ BITES IOT.png" alt=""></a>
+            <ul class="nav-links"> 
+                <li><a href="iot.html">HOME</a></li>
+                <li><a href="home.html">IOT DEVICES</a></li>
+                <li><a href="about.html">ABOUT US</a></li>
+                <li><a href="contact.html">CONNECT</a></li>
+       
+            </ul> 
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i> 
+        </div>
+    </nav>
+
+    
+    <section class="search-bar">
+        <form class="container search-container" onsubmit="return false;">
+            <div class="search">
+                <input id="search-input" placeholder="Search..." type="text" oninput="showSuggestions(this.value)">
+                <button type="submit">Go</button>
+            </div>
+            <div id="suggestions" class="suggestions"></div>
+        </form>
+    </section>
+
+
+    <section class="post">
+        <div class="post-container container">
+
+            <article class="post1">
+                <div class="thumbnail">
+                    <img src="about motoron device.jpg" alt="">
+                </div>
+                <div class="post-info">
+                    <a href="category.html" class="category">Motoron 2 controller</a>
+                    <h3 class="post-title">IOT MOTORON DEVICE </h3>
+                    <p class="post-body">Develop a level measurement system that offers accurate and reliable monitoring of liquid levels in various environments and controlling the desired motor with respect to level and time, functioning seamlessly with or without internet connectivity, providing flexibility and convenience for different applications. Can also view the status in webpage once connected to internet.</p>
+            </article>
+
+            <article class="post1">
+                <div class="thumbnail">
+                    <img src="motoron.jpeg" alt="">
+                </div>
+                <div class="post-info">
+                    <a href="category.html" class="category">MOTORON 6 controllers</a>
+                    <h3 class="post-title">MOTORON DEVICE. </h3>
+                    <p class="post-body">The Motoron motor controllers are a family of general-purpose modules designed to control brushed DC motors. The Motoron receives commands via I²C or UART serial (depending on which model you have), so only two I/O lines are needed regardless of how many Motorons you connect.
+                 </p>
+            </article>
+
+            <article class="post1">
+                <div class="thumbnail">
+                    <img src="biotron.jpeg" alt="">
+                </div>
+                <div class="post-info">
+                    <a href="category.html" class="category">BIOTRON 2 CONTROL SENSING</a>
+                    <h3 class="post-title">BIOTRON </h3>
+                    <p class="post-body">It is preferred that the object must be placed at the center line of the sensor but it can also be present at a certain angle from the center. This is known as effectual angle which should be less than 15°.
+                        The distance at which an object must be placed so that it can be detected by a sensor is around 2cm – 400 cm. The accuracy of detection decreases with an increase in distance.
+                        The sensor is used to emit waves known as ultrasound with a frequency of 40 KHz.
+                        Distance Measurement,Object Detection,Positioning and Navigation,Tank Level Monitoring,Collision Avoidance,Sound-absorbing materials are not detectable,Displacement.</p>
+            </article>
+
+            <article class="post1">
+                <div class="thumbnail">
+                    <img src="wateron.jpeg" alt="">
+                </div>
+                <div class="post-info">
+                    <a href="category.html" class="category">FLOW SENSOR SINGLE </a>
+                    <h3 class="post-title">WATER FLOW SENSOR </h3>
+                    <p class="post-body">Water flow sensors can measure the rate of flow of water either by measuring velocity or displacement. These sensors can also measure the flow of water like fluids such as measuring milk in a dairy industry etc…
+                    There are various types of water flow sensors available based on their diameter and method of measuring. A cost-effective and most commonly used water flow sensor is Paddlewheel sensor. It can be used with water-like fluids </p>
+                     
+            </article>
+
+            <article class="post1">
+                <div class="thumbnail">
+                    <img src="wateron.jpeg" alt="">
+                </div>
+                <div class="post-info">
+                    <a href="category.html" class="category">FLOW SENSOR DOUBLE</a>
+                    <h3 class="post-title"> WATER SENSOR</h3>
+                    <p class="post-body">Water flow sensors can measure the rate of flow of water either by measuring velocity or displacement. These sensors can also measure the flow of water like fluids such as measuring milk in a dairy industry etc…
+
+                        There are various types of water flow sensors available based on their diameter and method of measuring. A cost-effective and most commonly used water flow sensor is Paddlewheel sensor. It can be used with water-like fluids </p>
+                    
+            </article>
+
+            <article class="post1">
+                
+                    <article class="post1">
+                        <div class="thumbnail">
+                            <img src="homeautomation1.jpg" alt="">
+                </div>
+                <div class="post-info">
+                    <a href="category.html" class="category">HOME AUTOMATION</a>
+                    <h3 class="post-title">IOT HOME AUTOMATION</h3>
+                    <p class="post-body">When connected with the Internet, home devices are an important constituent of the Internet of Things (“IoT”). In this Home Automation System, we will control 4 home appliances as Tv, Fan, Bulb, Motor, Refrigerator connected to Relay using Blynk Application.
+                        Compatibility and Integration: One challenge in IoT home automation lies in the compatibility and integration of different devices and technologies. With a wide range of manufacturers and communication protocols, ensuring seamless connectivity and interoperability between devices can be complex.
+                    </p>
+                    
+            </article>
+
+        </div>
+    </section>
+
+    <section class="Category" id="Category">
+        <div class="category-container container">
+            <a class="category">MOTORON 2 controller</a>
+            <a class="category">MOTORON 6 controller</a>
+            <a class="category">BIOTRON 2 CONTROL SENSING</a>
+            <a class="category">FLOW SENSOR SINGLE</a>
+            <a class="category">FLOW SENSOR DOUBLE</a>
+            <a class="category">SMART HOME AUTOMATION</a>
+        </div>
+    </section>
+
+    <footer>
+        <div class="social">
+            <a href=""><i class="fa-brands fa-facebook"></i></a>
+            <a href=""><i class="fa-brands fa-instagram"></i></a>
+            <a href=""><i class="fa-brands fa-twitter"></i></a>
+            <a href=""><i class="fa-brands fa-linkedin-in"></i></a>
+        </div>
+        <div class="container foot-ontainer">
+            <article>
+                <h4>Categories</h4>
+                <ul>
+                    <li><a>Motoron 2 controller</a></li>
+                    <li><a>Motoron 4 controller</a></li>
+                    <li><a>BIOTRON 2 CONTROL SENSING</a></li>
+                    <li><a>FLOW SENSOR SINGLE</a></li>
+                    <li><a>FLOW SENSOR DOUBLE</a></li>
+                    <li><a>HOME AUTOMATION</a></li>
+                    <li><a></a></li>
+                    <li><a></a></li>
+                    <li><a></a></li>
+                    <li><a></a></li>
+                    <li><a></a></li>
+                    <li><a></a></li>
+                    </ul>
+                </ul>
+            </article>
+
+            <article>
+                <h4>Support</h4>
+                <ul>
+                    <li><a href="">Online Support</a></li>
+                    <li><a href="">Email</a></li>
+                    <li><a href="">Phone</a></li>
+                    <li><a href="">Social Media</a></li>
+                </ul>
+            </article>
+
+            <article>
+                <h4>Links</h4>
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="">IOT DEVICES</a></li>
+                    <li><a href="">ABOUT US</a></li>
+                    <li><a href="">Contact</a></li>
+                </ul>
+            </article>
+
+        </div>
+        <div class="copyryt"><pre>Conditions of Use     Privacy Notice
+Copyright &copy; 2024, Blog.</pre></div>
+    </footer>
+
+    <script src="index.js"></script>
+    <script src="blog.js"></script>
+</body>
+</html> 
